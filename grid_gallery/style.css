@@ -36,15 +36,15 @@
   transition: all 0.3s ease-in-out;
 }
 
-.horizontal {
+#horizontal {
   grid-column: span 2;
 }
 
-.vertical {
+#vertical {
   grid-row: span 2;
 }
 
-.container h2 {
+.gallery-image h2 {
   color: white;
   background-color: transparent;
   position: absolute;
@@ -55,10 +55,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-.container img:hover + h2 {
+.gallery-image img:hover + h2 {
   display: block;
 }
 
-.container img:hover {
+.gallery-image img:hover {
   filter: brightness(50%);
 }
