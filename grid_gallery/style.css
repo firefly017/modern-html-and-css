@@ -44,6 +44,10 @@
   grid-row: span 2;
 }
 
+.gallery-image {
+  position: relative;
+}
+
 .gallery-image h2 {
   color: white;
   background-color: transparent;
